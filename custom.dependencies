@@ -7,5 +7,10 @@
     "repository": "NoPrincessHere/proprietary_vendor_motorola_dubai",
     "target_path": "vendor/motorola/dubai",
     "remote": "gitlab"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "NoPrincessHere/proprietary_vendor_oneplus_dolby",
+    "target_path": "vendor/oneplus/dolby"
   }
 ]

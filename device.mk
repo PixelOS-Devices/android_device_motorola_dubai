@@ -23,6 +23,9 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 # Inherit from motorola sm7325-common
 $(call inherit-product, device/motorola/sm7325-common/common.mk)
 
+# Inherit from dolby
+$(call inherit-product-if-exists, vendor/oneplus/dolby/oplusdolby.mk)
+
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworksResDevice \
